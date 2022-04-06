@@ -13,6 +13,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.0",
     "source-map-resolve": "^0.6.0",
+    "tar": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
