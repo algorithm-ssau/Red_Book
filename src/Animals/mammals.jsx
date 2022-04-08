@@ -7,13 +7,13 @@ import Insects from '../Pages/Insects';
 import Reptails from '../Pages/Reptails';
 import Mammal from '../Pages/Mammall';
 import Parks from '../Pages/Parks';
-import Home from '../Pages/Home';
+import Home from '../Components/Description';
 
 export default class Mammals extends Component {
     render() {
         return (
             <>
-                <Navbar fixed="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+                <Navbar sticky="top" collapseOnSelect expand="md" bg="dark" variant="dark">
                     <Container>
                         <Navbar.Brand href="/">
                             <img
@@ -47,12 +47,12 @@ export default class Mammals extends Component {
 
                 <Router>
                     <Routes>
-                        <Route exact path="/" component={Home} />
-                        <Route exact path="/mammals" component={Mammal} />
-                        <Route exact path="/reptails" component={Reptails} />
-                        <Route exact path="/insects" component={Insects} />
-                        <Route exact path="/fish" component={Fish} />
-                        <Route exact path="/parks" component={Parks} />
+                        <Route path='/mammals' element={<Mammal/>}/>
+                        <Route path='/' element={<Home/>}/>
+                        <Route path='/reptails' element={<Reptails/>}/>
+                        <Route path='/insects' element={<Insects/>}/>
+                        <Route path='/fish' element={<Fish/>}/>
+                        <Route path='/parks' element={<Parks/>}/>
                     </Routes>
                 </Router>
             </>
