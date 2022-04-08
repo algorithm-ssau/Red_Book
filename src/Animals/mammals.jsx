@@ -27,12 +27,12 @@ export default class Mammals extends Component {
                         <Navbar.Toggle aria-controls='responsive-navbar-nav' />
                         <Navbar.Collapse id="responsive-navbar-nav" />
                         <Nav className="mr-auto">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/mammals">Mammals</Nav.Link>
-                            <Nav.Link href="/reptails">Reptails</Nav.Link>
-                            <Nav.Link href="/insects">Insects</Nav.Link>
-                            <Nav.Link href="/fish">Fish</Nav.Link>
-                            <Nav.Link href="/parks">parks</Nav.Link>
+                            <Nav.Link href="/">Главная</Nav.Link>
+                            <Nav.Link href="/mammals">Млекопитающие</Nav.Link>
+                            <Nav.Link href="/reptails">Рептилии</Nav.Link>
+                            <Nav.Link href="/insects">Насекомые</Nav.Link>
+                            <Nav.Link href="/fish">Рыбы</Nav.Link>
+                            <Nav.Link href="/parks">Заповедники</Nav.Link>
                         </Nav>
                         <Form inline >
                             <FormControl
