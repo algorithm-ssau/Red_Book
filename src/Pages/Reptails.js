@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Frog from '../Animals/Frog.jpg'
 import Frog1 from '../Animals/Frog1.jpg'
-import Reptail1 from '../Animals/Reptail1.jpg'
+import Reptail1 from '../Animals/Raptail1.jpg'
 import Reptail2 from '../Animals/Reptail2.jpg'
 import './reptailsView.css';
 
