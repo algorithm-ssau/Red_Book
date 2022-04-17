@@ -3,7 +3,7 @@ import img1 from '../Animals/1.png'
 import img2 from '../Animals/2.png'
 import img3 from '../Animals/3.png'
 import img4 from '../Animals/4.png'
-import './Mammall.css';
+import './AnimalView.css';
 
 
 export default class Mammall extends Component {

@@ -23,4 +23,5 @@ body {
 
 .contact-card > p {
   font-size: 12px;
+  text-align: justify;
 }
