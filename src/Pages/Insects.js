@@ -21,6 +21,7 @@ export default class Insects extends Component {
             в Самарской области. Предпочитает открытые стации 
             с легкими песчаными почвами.</p>
       </div>
+      </div>
     )
   }
 }
