@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, FormControl, Container, Button, Form } from 'react-bootstrap'
-import logo from './logo192.png'
+import logo from './logo1.png'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import CouruselBox from '../Components/CouruselBox'
+import Carousel from 'react-bootstrap/Carousel'
 import Fish from '../Pages/Fish';
 import Insects from '../Pages/Insects';
 import Reptails from '../Pages/Reptails';
@@ -13,7 +15,7 @@ export default class Mammals extends Component {
     render() {
         return (
             <>
-                <Navbar sticky="top" collapseOnSelect expand="md" bg="dark" variant="dark">
+                <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
                         <Navbar.Brand href="/">
                             <img
@@ -34,14 +36,6 @@ export default class Mammals extends Component {
                             <Nav.Link href="/fish">Рыбы</Nav.Link>
                             <Nav.Link href="/parks">Заповедники</Nav.Link>
                         </Nav>
-                        <Form inline >
-                            <FormControl
-                                type="text"
-                                placeholder="Search"
-                                className="mr-sm-2"
-                            />
-                            <Button variant="outline-info">Search</Button>
-                        </Form>
                     </Container>
                 </Navbar>
 
