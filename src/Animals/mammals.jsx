@@ -2,14 +2,14 @@ import React, { Component } from 'react'
 import { Navbar, Nav, FormControl, Container, Button, Form } from 'react-bootstrap'
 import logo from './logo1.png'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import CouruselBox from '../Components/CouruselBox'
+import Home from '../Components/CouruselBox'
 import Carousel from 'react-bootstrap/Carousel'
 import Fish from '../Pages/Fish';
 import Insects from '../Pages/Insects';
 import Reptails from '../Pages/Reptails';
 import Mammal from '../Pages/Mammall';
 import Parks from '../Pages/Parks';
-import Home from '../Components/Description';
+
 
 export default class Mammals extends Component {
     render() {
