@@ -3,6 +3,10 @@ import Fish1 from '../Animals/Fish1.jpg'
 import Fish2 from '../Animals/Osetr.jpg'
 import Fish3 from '../Animals/BelugaBar.jpg'
 import Fish4 from '../Animals/EgorShip.jpg'
+import Fish5 from '../Animals/Sterlyad.jpg'
+import Fish6 from '../Animals/Whitefishibicha.jpg'
+import Fish7 from '../Animals/Fastandfurios.jpg'
+import Fish8 from '../Animals/Understone.jpg'
 
 export default class Fish extends Component {
   render() {
@@ -36,6 +40,26 @@ export default class Fish extends Component {
           <p> Длина до  2  м, масса до  30  кг. Живет не  менее 30  лет. 
             Ранее обычный промысловый вид, численность которого была подорвана 
             до создания каскада водохранилищ.</p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Fish5}/>
+          <h3><font color="#3AC1EF"> Стерлядь </font></h3>
+          <p> </p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Fish6}/>
+          <h3><font color="#3AC1EF"> Белорыбица </font></h3>
+          <p> </p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Fish7}/>
+          <h3><font color="#3AC1EF"> Быстрянка </font></h3>
+          <p> </p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Fish8}/>
+          <h3><font color="#3AC1EF"> Подкаменщик обыкновенный </font></h3>
+          <p> </p>
       </div>
       
   </div>
