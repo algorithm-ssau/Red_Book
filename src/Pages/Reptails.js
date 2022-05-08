@@ -3,8 +3,10 @@ import Frog from '../Animals/Frog.jpg'
 import Frog1 from '../Animals/Frog1.jpg'
 import Reptail1 from '../Animals/Raptail1.jpg'
 import Reptail2 from '../Animals/Reptail2.jpg'
-
-
+import Cherep from '../Animals/Cherep.jpg'
+import NormTriton from '../Animals/NormTriton.jpg'
+import NeNormTriton from '../Animals/NeNormTriton.jpg'
+import Shh from '../Animals/Shh.jpg'
 
 export default class Reptails extends Component {
   render() {
@@ -40,6 +42,32 @@ export default class Reptails extends Component {
           <p>Низкая встречаемость обусловлена не только малой 
             численностью, но и скрытным образом жизни.</p>
       </div>
+      <div className="contact-card">
+          <img align="center" src={Cherep}/>
+          <h3><font color="#3AC1EF"> Черепаха болотная </font></h3>
+          <p>Хорошо плавает и ныряет. Выходя на сушу, редко удаляется от берега. 
+            Добыча, даже схваченная на берегу, заглатывается только в воде.</p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={NormTriton}/>
+          <h3><font color="#3AC1EF"> Обыкновенный тритон </font></h3>
+          <p>Местообитания приурочены к лесным массивам с водоемами. Обыкновенный тритон 
+            активен с середины апреля до конца сентября. Зимует на суше, весну проводит в воде.</p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={NeNormTriton}/>
+          <h3><font color="#3AC1EF"> Тритон гребенчатый </font></h3>
+          <p>Гребенчатый тритон встречается в лесных водоемах и по их берегам. Активен с середины 
+            апреля до конца сентября. Зимует на суше, весну и первую половину лета проводит в воде.</p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Shh}/>
+          <h3><font color="#3AC1EF"> Медянка обыкновенная</font></h3>
+          <p>Окраска верхней стороны туловища обычно серо-бурых тонов, реже красноватая 
+            или медная; нижняя сторона — серая, розовая или желтоватая.</p>
+      </div>
+      
+      
       
       
   </div>
