@@ -5,6 +5,8 @@ import LuHan from '../Animals/LuHan.jpg'
 import ButterFly from '../Animals/Butterfly.jpg'
 import Insect3 from '../Animals/Slizen.jpg'
 import Insect4 from '../Animals/Kallistus.jpg'
+import DarkShip from '../Animals/DarkShip.jpg'
+import Dibka from '../Animals/Dibka.jpg'
 
 export default class Insects extends Component {
   render() {
@@ -51,6 +53,21 @@ export default class Insects extends Component {
             сформировавшимся на карбонатных породах или на размытых известняках. 
             Встречен и вдали от водоема у родника, истекающего из известняков.</p>
       </div>
+      <div className="contact-card">
+          <img align="center" src={DarkShip}/>
+          <h3><font color="#3AC1EF"> Каллистус лунный </font></h3>
+          <p>Гигрофильный вид, встречается по берегам водоемов с поверхностным покровом, 
+            сформировавшимся на карбонатных породах или на размытых известняках. 
+            Встречен и вдали от водоема у родника, истекающего из известняков.</p>
+      </div>
+      <div className="contact-card">
+          <img align="center" src={Dibka}/>
+          <h3><font color="#3AC1EF"> Каллистус лунный </font></h3>
+          <p>Гигрофильный вид, встречается по берегам водоемов с поверхностным покровом, 
+            сформировавшимся на карбонатных породах или на размытых известняках. 
+            Встречен и вдали от водоема у родника, истекающего из известняков.</p>
+      </div>
+
       </div>
     )
   }
