@@ -70,7 +70,25 @@ export default class Fish extends Component {
             в специально вырытые ямки или на нижнюю сторону камней.</p>
       </div>
       
+      
+
+
   </div>
     )
   }
+}
+
+async function GetUsers() {
+  // отправляет запрос и получаем ответ
+  const response = await fetch("http://localhost:5000/api/items", {
+      method: "GET",
+      headers: { "Accept": "application/json" }
+  });
+  // если запрос прошел нормально
+  if (response.ok === true) {
+      // получаем данные
+      const users = await response.json();
+      console.log(users);
+  }
+  else {console.log('Errors');}
 }
