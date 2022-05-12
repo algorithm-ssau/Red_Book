@@ -57,7 +57,7 @@ export default class CouruselBox extends Component {
                   <h3>Красная Книга Самарской области</h3>
                   <p></p>
               </Carousel.Caption>
-          </Carousel.Item>np
+          </Carousel.Item>
       </Carousel>
     )
   }
