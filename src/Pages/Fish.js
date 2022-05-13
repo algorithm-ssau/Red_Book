@@ -10,6 +10,7 @@ import Fish8 from '../Animals/Understone.jpg'
 
 export default class Fish extends Component {
   render() {
+    GetUsers();
     return (
       <div className="contacts">
 
