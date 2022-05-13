@@ -68,7 +68,7 @@ export default class CouruselBox extends Component {
                   <Card border="info" style={{ width: '18rem'}}>
                           <Card.Img 
                           variant="top"
-                          src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                          src="https://images.pexels.com/photos/39292/squirrel-eating-squirrel-sweet-cute-39292.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                           />
                            <Card.Body>
                           <Card.Title>Млекопитающие</Card.Title>
@@ -113,7 +113,7 @@ export default class CouruselBox extends Component {
                       <Card border="info" style={{ width: '18rem'}}>
                           <Card.Img 
                           variant="top"
-                          src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                          src="https://tyachivnews.in.ua/uploads/posts/2020-11/1605349876_hornet-417939_1920.jpg"
                           />
                            <Card.Body>
                           <Card.Title>Насекомые</Card.Title>
