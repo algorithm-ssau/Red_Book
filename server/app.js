@@ -6,6 +6,10 @@ const items = require ('./routes/api/items')
 
 const app = express();
 
+//История с cors
+let cors = require("cors");
+app.use(cors());
+
 // BOdepaeser Middleware
 app.use(bodyParser.json());
 
@@ -20,6 +24,8 @@ mongoose
 
 //Use Routes
 app.use('/api/items', items);
+
+
 
 const port = process.env.PORT || 5000;
 
