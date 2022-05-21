@@ -12,7 +12,8 @@
         https://nodejs.org/en/
 3. npm install react-router
 4. npm install react-bootstrap bootstrap
-5. npm run dev(чтобы запустить)
+5. npm i cors
+6. npm run dev(чтобы запустить)
 
 
 Авторы: Аржанкина П.Д., Кухно Д.М., Малюгина М.А., Селицкая Н.Д.
