@@ -15,7 +15,7 @@ export default class Insects extends Component {
 
       <div className="contact-card">
           <img align="center" src={Insect1}/>
-          <h3><font color="#3AC1EF"> Ленточница розовобрюхая </font></h3>
+          <h3><font color="#3AC1EF"> Ленточница  розовобрюхая </font></h3>
           <p>Бабочки отмечаются в светлых лиственных лесах 
             и лесных колках в лесостепи. Гусеница в мае-июне
             питается листьями ивы козьей.</p>
