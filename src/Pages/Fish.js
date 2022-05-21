@@ -69,30 +69,22 @@ export default class MyComponent extends React.Component {
     <div className="contact-card">
         <img align="center" src={Fish5}/>
         <h3><font color="#3AC1EF"> Стерлядь </font></h3>
-        <p> Живет в реках, водохранилищах, реже в озерах. 
-          Предпочитает проточные условия, биотопы с песчаным и галечным грунтом. 
-          Плодовитость более 100 тыс. икринок.</p>
+        <p> {list1[4]['description']}</p>
     </div>
     <div className="contact-card">
         <img align="center" src={Fish6}/>
         <h3><font color="#3AC1EF"> Белорыбица </font></h3>
-        <p> Крупная хищная рыба, достигающая свыше 1 м длины и до 20 кг веса. 
-          Размножение не чаще 3 раз в жизни с интервалами в 2 года. 
-          Плодовитость до 390000 икринок.</p>
+        <p> {list1[5]['description']}</p>
     </div>
     <div className="contact-card">
         <img align="center" src={Fish7}/>
         <h3><font color="#3AC1EF"> Быстрянка </font></h3>
-        <p> В озерах и прудах встречается крайне редко. Держится постоянно 
-          на поверхности и по быстроте движений превосходит уклейку. 
-          Икру откладывает на мелководьях, предпочитает каменистые грунты.</p>
+        <p> {list1[6]['description']}</p>
     </div>
     <div className="contact-card">
         <img align="center" src={Fish8}/>
         <h3><font color="#3AC1EF"> Подкаменщик обыкновенный </font></h3>
-        <p> В дневное время малоактивен и прячется под камнями или в зарослях. 
-          Питается донными беспозвоночными и икрой рыб. Икру рыбы откладывают
-          в специально вырытые ямки или на нижнюю сторону камней.</p>
+        <p> {list1[7]['description']}</p>
     </div>
 </div>
     )
