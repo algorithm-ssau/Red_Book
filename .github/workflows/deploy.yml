@@ -19,4 +19,4 @@ jobs:
       - run: npm ci
       - run: CI=false npm run build
         # Deploy
-      - run: cd src && rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . l104129@l104129.hostru13.fornex.host:/home/l104129/public_html/rsambook.ru
+      - run: rsync -e "ssh -p 20022 -i $HOME/.ssh/key -o StrictHostKeyChecking=no" --archive --compress --delete . l104129@l104129.hostru13.fornex.host:/home/l104129/public_html/rsambook.ru
