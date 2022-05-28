@@ -15,7 +15,7 @@ import Parks from '../Pages/Parks';
 export default class Mammals extends Component {
     render() {
         return (
-            <>
+            <div>
                 <Navbar sticky="top" collapseOnSelect expand="md" bg="light" variant="light">
                     <Container>
                         <Navbar.Brand href="/">
@@ -52,7 +52,7 @@ export default class Mammals extends Component {
                 </Router>
 
                
-                 </>
+                 </div>
         )
     }
 }
