@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+//import React, { Component } from 'react'
 import { Navbar, Nav, FormControl, Container, Button, Form,Card, CardGroup } from 'react-bootstrap'
 
 import logo from './logo1.png'

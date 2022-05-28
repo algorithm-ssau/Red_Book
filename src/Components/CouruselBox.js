@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, Nav, FormControl, Container, Button, Form,Card, CardGroup } from 'react-bootstrap'
+import { Navbar, Nav, FormControl, Container, Button, Form, Card, CardGroup } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
 import Forest from '../MainPagePictures/Forest.jpg'
 import Volga from '../MainPagePictures/Volga.jpg'
@@ -7,12 +7,10 @@ import Luka from '../MainPagePictures/Luka.jpg'
 import Zhiguli from '../MainPagePictures/Zhiguli.jpg'
 
 export default class CouruselBox extends Component {
-  render() {
-    return (
-        <>
-      <Carousel>
-
-           <Carousel.Item>
+    render() {
+        return (
+        <Carousel>
+            <Carousel.Item>
               <img
               className='d-block w-100'
               src={ Zhiguli }
@@ -59,9 +57,11 @@ export default class CouruselBox extends Component {
                   <h3>Красная Книга Самарской области</h3>
                   <p></p>
               </Carousel.Caption>
-          </Carousel.Item>
-      </Carousel>
-
+            </Carousel.Item>
+        </Carousel>
+        )
+        
+            return (
       <Container>
                   <h2 className='text-center m-4'>Разделы</h2>
                   <CardGroup>
@@ -142,7 +142,7 @@ export default class CouruselBox extends Component {
 
                       </CardGroup>
                  </Container>
-      </>
-    )
-  }
+            )
+        
+    }
 }
