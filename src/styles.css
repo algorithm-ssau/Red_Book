@@ -1,10 +1,11 @@
 body{
+  background-color: antiquewhite;
   height: 1000px;
 }
 
 .header img{
   width: 20px;
-  
+  background-color: beige;
 }
 
 nav a {
