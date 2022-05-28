@@ -7,8 +7,10 @@ import Luka from '../MainPagePictures/Luka.jpg'
 import Zhiguli from '../MainPagePictures/Zhiguli.jpg'
 
 export default class CouruselBox extends Component {
-    render() {
+    render()
+    {
         return (
+            <div>
         <Carousel>
             <Carousel.Item>
               <img
@@ -19,11 +21,11 @@ export default class CouruselBox extends Component {
               <Carousel.Caption>
               <h3>Красная Книга Самарской области</h3>
                   <p> Этот сайт предназначен для просмотра животных, которые живут на территории Самарской области, а также находятся в красной книге Самарской области.
-        Здесь можно также просмотреть заповедные зоны Самарской области.</p>
+                    Здесь можно также просмотреть заповедные зоны Самарской области.</p>
               </Carousel.Caption>
-          </Carousel.Item>
+            </Carousel.Item>
 
-          <Carousel.Item>
+            <Carousel.Item>
               <img
               className='d-block w-100'
               src={ Forest }
@@ -33,21 +35,21 @@ export default class CouruselBox extends Component {
                   <h3>Красная Книга Самарской области</h3>
                   <p>Сборник живых организмов внесённых в Красную книгу Российской Федерации</p>
               </Carousel.Caption>
-          </Carousel.Item>
+            </Carousel.Item>
 
-          <Carousel.Item>
-              <img
-              className='d-block w-100'
-              src={ Luka }
-              alt="Luka"
-              />
-              <Carousel.Caption>
-              <h3></h3>
-                  <p></p>
-              </Carousel.Caption>
-          </Carousel.Item>
+            <Carousel.Item>
+                <img
+                className='d-block w-100'
+                src={ Luka }
+                alt="Luka"
+                />
+                <Carousel.Caption>
+                    <h3></h3>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
 
-          <Carousel.Item>
+            <Carousel.Item>
               <img
               className='d-block w-100'
               src={ Volga }
@@ -59,10 +61,7 @@ export default class CouruselBox extends Component {
               </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        )
-        
-            return (
-      <Container>
+        <Container>
                   <h2 className='text-center m-4'>Разделы</h2>
                   <CardGroup>
                   <Card border="info" style={{ width: '18rem'}}>
@@ -142,7 +141,8 @@ export default class CouruselBox extends Component {
 
                       </CardGroup>
                  </Container>
-            )
+                 </div>
+        )
         
     }
 }
