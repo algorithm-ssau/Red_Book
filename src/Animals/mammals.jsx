@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Navbar, Nav, FormControl, Container, Button, Form,Card, CardGroup } from 'react-bootstrap'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 
 import logo from './logo1.png'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from '../Components/CouruselBox'
 import Carousel from 'react-bootstrap/Carousel'
 import Fish from '../Pages/Fish';
