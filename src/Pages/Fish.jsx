@@ -22,7 +22,7 @@ export default class MyComponent extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:5000/api/items")
+    fetch("https://gentle-brushlands-71575.herokuapp.com/api/items")
       .then(res => res.json())
       .then(
         (result) => {
@@ -97,7 +97,7 @@ export default class MyComponent extends React.Component {
 
 async function GetUsers() {
   // отправляет запрос и получаем ответ
-  const response = await fetch("http://localhost:5000/api/items", {
+  const response = await fetch("https://gentle-brushlands-71575.herokuapp.com/api/items", {
       method: "GET",
       headers: { "Accept": "application/json" }
   });
